@@ -21,20 +21,20 @@ window.SITE = {
   },
 
   intro:
-    "I lead video and content across Africa: reality shows, award nights, entertainment formats and branded campaigns. Fifteen years of making content that connects, and keeping the team moving while we do it.",
+    "I lead video and content across Sub-Saharan Africa for MultiChoice, a CANAL+ company: reality shows, award nights, entertainment formats and branded campaigns. Fifteen years of using what audiences respond to to shape what we make next, and keeping the team moving while we do it.",
 
+  // stats[0] shows in the big panel; the rest make the stats row (3 across).
+  // View figures are rounded down from the team's Social Media Video Numbers sheet.
   stats: [
     { value: "15+", label: "Years in African digital media" },
-    { value: "6", label: "Markets" },
-    { value: "20+", label: "Social platforms contributed to" },
-    // Hidden until real figures are in — uncomment and update to show them:
-    // { value: "10+", label: "YouTube channels managed" },
-    // { value: "500M+", label: "Lifetime channel views" },
+    { value: "6", label: "Markets produced content for" },
+    { value: "45+", label: "Social and YouTube accounts contributed to" },
+    { value: "3B+", label: "Views contributed to" },
   ],
 
-  whatIDo: "Video and Content Specialist",
+  whatIDo: "Editing, digital strategy and audience insights",
   markets: ["Kenya", "Tanzania", "Uganda", "Nigeria", "Ghana", "South Africa"],
-  skills: ["FCP", "CapCut", "Premiere Pro", "Analytics", "Camera"],
+  skills: ["Final Cut Pro", "Premiere Pro", "Adobe Creative Suite", "CapCut", "Canva", "YouTube Studio", "Google Analytics", "Generative AI tools", "Camera"],
   youtube:
     "Managed and published on YouTube channels including Africa Magic, Akwaaba Magic, Maisha Magic, BBNaija and Nigerian Idol, handling monetisation, rights and delivery.",
 
@@ -61,7 +61,7 @@ window.SITE = {
     { title: "Make It 80s", show: "Big Brother Naija S11", category: "AI", clip: "assets/work/ai-80s.mp4", poster: "assets/work/ai-80s.jpg", link: "" },
     { title: "Handler Song", show: "Big Brother Naija S11", category: "AI", clip: "assets/work/ai-handler.mp4", poster: "assets/work/ai-handler.jpg", link: "" },
     { title: "Reunion Soundbite", show: "BBNaija Reunion", category: "AI", clip: "assets/work/ai-reunion.mp4", poster: "assets/work/ai-reunion.jpg", link: "" },
-    { title: "Ozee", show: "BBNaija Reunion", category: "AI", clip: "assets/work/ai-ozee.mp4", poster: "assets/work/ai-ozee.jpg", link: "" },
+    { title: "Reunion Soundbite", show: "BBNaija Reunion", category: "AI", clip: "assets/work/ai-ozee.mp4", poster: "assets/work/ai-ozee.jpg", link: "" },
     { title: "Winner Reveal", show: "Big Brother Naija S11", category: "AI", clip: "assets/work/ai-winner.mp4", poster: "assets/work/ai-winner.jpg", link: "" },
     { title: "Angel Comes to Play", show: "BBNaija All Stars", category: "AI", clip: "assets/work/ai-angel.mp4", poster: "assets/work/ai-angel.jpg", link: "" },
     { title: "Rehearsals", show: "AMVCA 12", category: "On Set", clip: "assets/work/set-amvca.mp4", poster: "assets/work/set-amvca.jpg", link: "" },
@@ -80,20 +80,24 @@ window.SITE = {
     { title: "Wura Core", show: "Africa Magic", category: "Fun", clip: "assets/work/fun-wura.mp4", poster: "assets/work/fun-wura.jpg", link: "" },
   ],
 
-  // Highlights: not shown yet. To bring the section back, re-add the Highlights
-  // section to index.html and its render block to main.js. Draft wording — edit freely.
+  // Highlights: views are rounded down from the team's Social Media Video Numbers
+  // sheet (Facebook, Instagram, X, TikTok, YouTube; Apr 2019 – Aug 2026).
+  highlightsIntro: "Part of the teams behind 3B+ video views across social and YouTube, 2019 – 2026, in roles from editor to content manager.",
   highlights: [
     {
       title: "Big Brother Naija",
-      text: "Video across multiple seasons: daily house highlights, housemate profiles, reunion specials and AI-led social edits.",
+      views: "1.6B+ views",
+      text: "Part of the digital team across multiple seasons: daily house highlights, housemate profiles, reunion specials and AI-led social edits, plus content management, campaigns and performance reporting.",
     },
     {
       title: "Nigerian Idol",
-      text: "Digital content for Seasons 9 and 10: contestant intros, judge segments and live-show recaps.",
+      views: "50M+ views",
+      text: "Part of the digital team since Season 6 (2021), when the show returned: from video clipping and production to content management and analytics. Delivering video across the show's social platforms, and helping grow its TikTok channel with short-form performance and contestant clips.",
     },
     {
-      title: "Channel Management",
-      text: "Daily clipping and publishing across Canal+ general entertainment platforms.",
+      title: "Channel and Content Management",
+      views: "1.5B+ views",
+      text: "Part of the digital team cutting, shooting and publishing daily across Africa Magic, Maisha Magics, Pearl Magics, Akwaaba Magic and Seasonal titles. Also analysing performance to guide what we make next, and contributing to client proposals.",
     },
   ],
 
@@ -177,9 +181,15 @@ window.SITE = {
   shows: [
     "Big Brother",
     "Big Brother Naija",
+    "Big Brother Mzansi",
+    "Big Brother Africa",
+    "Big Brother Angola",
+    "Big Brother Mozambique",
     "Nigerian Idol",
+    "Idols SA",
     "Love Island SA",
     "The Voice Nigeria",
+    "The Voice South Africa",
     "AMVCA",
     "DStvMVCA",
     "Africa Magic",
@@ -192,28 +202,28 @@ window.SITE = {
 
   experience: [
     {
-      years: "2022 – 2026",
+      years: "2022 – Present",
       title: "Digital Video & Content Manager",
       org: "Don't Look Down TV",
-      note: "Video and content across Kenya, Tanzania, Uganda, Nigeria and Ghana: AMVCA, Nigerian Idol, BBNaija, GE Video.",
+      note: "Video and content across Kenya, Tanzania, Uganda, Nigeria, Ghana and South Africa: AMVCA, Nigerian Idol, BBNaija, GE Video. Owns performance reporting across brands and seasonal projects, and turns audience insights into what the team makes next.",
     },
     {
       years: "2018 – 2022",
       title: "Senior Video Operations Manager",
       org: "Don't Look Down TV",
-      note: "Managed and published on YouTube channels including Africa Magic, Akwaaba Magic, Maisha Magic, BBNaija and Nigerian Idol, handling monetisation, rights and delivery.",
+      note: "Managed and published on YouTube channels including Africa Magic, Akwaaba Magic, Maisha Magic, BBNaija and Nigerian Idol. Helped launch digital platforms for new MultiChoice brands, and worked directly with YouTube on monetisation, rights and anti-piracy.",
     },
     {
       years: "2012 – 2017",
       title: "Video Content Creator",
       org: "Don't Look Down TV · Contract",
-      note: "DStv Catch-Up, freelance teams across Big Brother projects, video lead for The Voice Nigeria and The Voice Angola.",
+      note: "DStv Catch-Up, freelance teams across Big Brother projects, video lead for The Voice Nigeria and The Voice Angola. Trained internal staff on VOD and streaming workflows.",
     },
     {
-      years: "2000 – 2011",
+      years: "2007 – 2011",
       title: "Director & Editor",
       org: "Freelance",
-      note: "Mzansi Insider (SABC 1), the SABC Crown Gospel Awards, corporate work for SAB, and a Vuka campaign.",
+      note: "Mzansi Insider (SABC 1), the SABC Crown Gospel Awards, the BASIS Summit, corporate work for SAB with Azani Media, and a Vuka campaign.",
     },
   ],
 

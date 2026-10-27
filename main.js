@@ -84,6 +84,7 @@
         <p class="label">Markets</p><p>${S.markets.map(esc).join(" · ")}</p>
         <p class="label">Skills</p><p>${S.skills.map(esc).join(" · ")}</p>
         <p class="label">YouTube</p><p class="lede">${esc(S.youtube)}</p>
+        ${S.works ? `<p class="label">Works</p><p>${esc(S.works)}</p>` : ""}
       </div>`;
 
     $("#stats").innerHTML = S.stats
@@ -185,6 +186,18 @@
     });
 
 
+
+    $("#highlights-intro").textContent = S.highlightsIntro;
+    $("#highlights-list").innerHTML = S.highlights
+      .map(
+        (h) => `
+      <li>
+        <p class="label">${esc(h.views)}</p>
+        <h3 class="display">${esc(h.title)}</h3>
+        <p>${esc(h.text)}</p>
+      </li>`
+      )
+      .join("");
 
     $("#timeline").innerHTML = S.experience
       .map(
