@@ -1,0 +1,15 @@
+.DS_Store
+.claude/
+
+# large local copy; the live site plays the reel from YouTube
+assets/video/showreel.mp4
+
+# case study pages and their media are parked until there are real numbers
+project.html
+assets/video/amvca.mp4
+assets/video/bbnaija.mp4
+assets/video/idol.mp4
+assets/img/amvca.jpg
+assets/img/bbnaija.jpg
+assets/img/idol.jpg
+assets/img/reel-poster.jpg
