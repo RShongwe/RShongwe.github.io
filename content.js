@@ -40,7 +40,7 @@ window.SITE = {
 
   // Selected work. Categories drive the filter buttons, in this order.
   // gif: true = short silent loop, no "Tap for sound".
-  categories: ["Talking Heads", "AI", "On Set", "Fun"],
+  categories: ["Fun", "AI", "On Set", "Talking Heads"],
   // Pinned first in Selected Work and shown under every filter
   pinned: {
     title: "Showreel",
@@ -54,10 +54,13 @@ window.SITE = {
   // false = always play the local files (the claude.ai preview can't embed YouTube)
   embedYouTube: true,
   work: [
-    { title: "Sade", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-sade.mp4", poster: "assets/work/th-sade.jpg", link: "" },
-    { title: "Remi", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-remi.mp4", poster: "assets/work/th-remi.jpg", link: "" },
-    { title: "Tej", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-vertical.mp4", poster: "assets/work/th-vertical.jpg", link: "" },
-    { title: "Mother of the Brides", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-mother.mp4", poster: "assets/work/th-mother.jpg", link: "" },
+    { title: "Silhouette", show: "Real Housewives of Lagos S3", category: "Fun", clip: "assets/work/fun-rhol.mp4", poster: "assets/work/fun-rhol.jpg", link: "" },
+    { title: "Winners", show: "AMVCA 12", category: "Fun", clip: "assets/work/fun-amvca-creator.mp4", poster: "assets/work/fun-amvca-creator.jpg", link: "" },
+    { title: "Fairytale", show: "My Fairytale Wedding", category: "Fun", clip: "assets/work/fun-wedding.mp4", poster: "assets/work/fun-wedding.jpg", link: "" },
+    { title: "Final Dance", show: "Stripped", category: "Fun", clip: "assets/work/fun-stripped.mp4", poster: "assets/work/fun-stripped.jpg", link: "" },
+    { title: "Sights & Sounds", show: "AMVCA 12", category: "Fun", clip: "assets/work/fun-amvca.mp4", poster: "assets/work/fun-amvca.jpg", link: "" },
+    { title: "Countdown: Day 1", show: "FutureMe S2", category: "Fun", clip: "assets/work/fun-futureme-1.mp4", poster: "assets/work/fun-futureme-1.jpg", link: "" },
+    { title: "Wura Core", show: "Africa Magic", category: "Fun", clip: "assets/work/fun-wura.mp4", poster: "assets/work/fun-wura.jpg", link: "" },
     { title: "Make It 80s", show: "Big Brother Naija S11", category: "AI", clip: "assets/work/ai-80s.mp4", poster: "assets/work/ai-80s.jpg", link: "" },
     { title: "Handler Song", show: "Big Brother Naija S11", category: "AI", clip: "assets/work/ai-handler.mp4", poster: "assets/work/ai-handler.jpg", link: "" },
     { title: "Reunion Soundbite", show: "BBNaija Reunion", category: "AI", clip: "assets/work/ai-reunion.mp4", poster: "assets/work/ai-reunion.jpg", link: "" },
@@ -71,13 +74,9 @@ window.SITE = {
     { title: "Bosslady", show: "Nigerian Idol S10", category: "On Set", clip: "assets/work/set-bosslady.mp4", poster: "assets/work/set-bosslady.jpg", link: "" },
     { title: "Winners", show: "AMVCA 12", category: "On Set", clip: "assets/work/set-amvca-winners.mp4", poster: "assets/work/set-amvca-winners.jpg", link: "" },
     { title: "Red & Yellow Card", show: "Big Brother Naija S11", category: "On Set", clip: "assets/work/set-redcard.mp4", poster: "assets/work/set-redcard.jpg", link: "" },
-    { title: "Sights & Sounds", show: "AMVCA 12", category: "Fun", clip: "assets/work/fun-amvca.mp4", poster: "assets/work/fun-amvca.jpg", link: "" },
-    { title: "Final Dance", show: "Stripped", category: "Fun", clip: "assets/work/fun-stripped.mp4", poster: "assets/work/fun-stripped.jpg", link: "" },
-    { title: "Fairytale", show: "My Fairytale Wedding", category: "Fun", clip: "assets/work/fun-wedding.mp4", poster: "assets/work/fun-wedding.jpg", link: "" },
-    { title: "Winners", show: "AMVCA 12", category: "Fun", clip: "assets/work/fun-amvca-creator.mp4", poster: "assets/work/fun-amvca-creator.jpg", link: "" },
-    { title: "Countdown: Day 1", show: "FutureMe S2", category: "Fun", clip: "assets/work/fun-futureme-1.mp4", poster: "assets/work/fun-futureme-1.jpg", link: "" },
-    { title: "Silhouette", show: "Real Housewives of Lagos S3", category: "Fun", clip: "assets/work/fun-rhol.mp4", poster: "assets/work/fun-rhol.jpg", link: "" },
-    { title: "Wura Core", show: "Africa Magic", category: "Fun", clip: "assets/work/fun-wura.mp4", poster: "assets/work/fun-wura.jpg", link: "" },
+    { title: "Sade", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-sade.mp4", poster: "assets/work/th-sade.jpg", link: "" },
+    { title: "Remi", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-remi.mp4", poster: "assets/work/th-remi.jpg", link: "" },
+    { title: "Mother of the Brides", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-mother.mp4", poster: "assets/work/th-mother.jpg", link: "" },
   ],
 
   // Highlights: views are rounded down from the team's Social Media Video Numbers
