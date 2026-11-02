@@ -34,7 +34,7 @@ window.SITE = {
 
   whatIDo: "Editing, digital strategy and audience insights",
   markets: ["Kenya", "Tanzania", "Uganda", "Nigeria", "Ghana", "South Africa"],
-  skills: ["Final Cut Pro", "Premiere Pro", "Adobe Creative Suite", "CapCut", "Canva", "YouTube Studio", "Google Analytics", "Generative AI tools", "Camera"],
+  skills: ["Final Cut Pro", "Premiere Pro", "Adobe Creative Suite", "CapCut", "Canva", "YouTube Studio", "Google Analytics", "Generative AI tools"],
   youtube:
     "Managed and published on YouTube channels including Africa Magic, Akwaaba Magic, Maisha Magic, BBNaija and Nigerian Idol, handling monetisation, rights and delivery.",
 
