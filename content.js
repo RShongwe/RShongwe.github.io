@@ -3,7 +3,7 @@
 
 window.SITE = {
   name: "Rethabile Shongwe",
-  role: "Video & Content Specialist",
+  role: "Video & Digital Content Specialist",
   email: "rshongwe@gmail.com",
   // Social links — a button appears for each one that has a URL
   socials: [
@@ -16,27 +16,30 @@ window.SITE = {
   reel: {
     youtubeId: "Na23kKYWs98",
     youtubeUrl: "https://youtu.be/Na23kKYWs98",
-    localFile: "assets/video/showreel-landscape.mp4", // used only while youtubeId is empty
+    localFile: "assets/video/showreel-landscape.mp4", // what Play showreel plays while embedYouTube is false
     poster: "assets/img/reel-title.jpg",
   },
 
-  intro:
-    "I lead video and content across Sub-Saharan Africa for MultiChoice, a CANAL+ company: reality shows, award nights, entertainment formats and branded campaigns. Fifteen years of using what audiences respond to to shape what we make next, and keeping the team moving while we do it.",
+  intro: [
+    "I lead video and digital content across some of Africa's biggest entertainment brands and formats, from reality television and live events to social-first storytelling and branded content.",
+    "With more than 15 years' experience, I specialise in turning ideas, stories and moments into digital content that connects with audiences, travels across platforms and keeps fast-moving teams delivering at scale.",
+  ],
 
   // stats[0] shows in the big panel; the rest make the stats row (3 across).
   // View figures are rounded down from the team's Social Media Video Numbers sheet.
   stats: [
-    { value: "15+", label: "Years in African digital media" },
+    { value: "15+", label: "Years in African media & content" },
     { value: "6", label: "Markets produced content for" },
-    { value: "45+", label: "Social and YouTube accounts contributed to" },
+    { value: "45+", label: "Social & YouTube channels contributed to" },
     { value: "3B+", label: "Views contributed to" },
   ],
 
   whatIDo: "Editing, digital strategy and audience insights",
   markets: ["Kenya", "Tanzania", "Uganda", "Nigeria", "Ghana", "South Africa"],
-  skills: ["Final Cut Pro", "Premiere Pro", "Adobe Creative Suite", "CapCut", "Canva", "YouTube Studio", "Google Analytics", "Generative AI tools"],
+  skills: ["Video Production", "Digital Content", "Editing", "Social Video", "Content Operations", "YouTube", "Analytics"],
+  tools: ["Final Cut Pro", "Premiere Pro", "Adobe Creative Suite", "CapCut", "Canva", "YouTube Studio", "Google Analytics", "Generative AI tools"],
   youtube:
-    "Managed and published on YouTube channels including Africa Magic, Akwaaba Magic, Maisha Magic, BBNaija and Nigerian Idol, handling monetisation, rights and delivery.",
+    "Managed video publishing and channel operations across major African entertainment brands including Africa Magic, Mzansi Magic, Channel O, Akwaaba Magic, Maisha Magic, Big Brother Naija and Nigerian Idol, overseeing content delivery, monetisation, rights management and platform publishing.",
 
   // Selected work. Categories drive the filter buttons, in this order.
   // gif: true = short silent loop, no "Tap for sound".
@@ -51,28 +54,29 @@ window.SITE = {
     youtubeUrl: "https://youtube.com/shorts/_smEU6cIbkc",
   },
 
-  // false = always play the local files (the claude.ai preview can't embed YouTube)
-  embedYouTube: true,
+  // false = play the site's own video files on the page. YouTube embeds can send
+  // phone viewers out to YouTube, so the YouTube links stay as a secondary option.
+  embedYouTube: false,
   work: [
-    { title: "Silhouette", show: "Real Housewives of Lagos S3", category: "Fun", clip: "assets/work/fun-rhol.mp4", poster: "assets/work/fun-rhol.jpg", link: "" },
-    { title: "Winners", show: "AMVCA 12", category: "Fun", clip: "assets/work/fun-amvca-creator.mp4", poster: "assets/work/fun-amvca-creator.jpg", link: "" },
+    { title: "Silhouette", show: "The Real Housewives of Lagos S3", category: "Fun", clip: "assets/work/fun-rhol.mp4", poster: "assets/work/fun-rhol.jpg", link: "" },
+    { title: "Winners", show: "Africa Magic Viewers' Choice Awards 12", category: "Fun", clip: "assets/work/fun-amvca-creator.mp4", poster: "assets/work/fun-amvca-creator.jpg", link: "" },
     { title: "Fairytale", show: "My Fairytale Wedding", category: "Fun", clip: "assets/work/fun-wedding.mp4", poster: "assets/work/fun-wedding.jpg", link: "" },
     { title: "Final Dance", show: "Stripped", category: "Fun", clip: "assets/work/fun-stripped.mp4", poster: "assets/work/fun-stripped.jpg", link: "" },
-    { title: "Sights & Sounds", show: "AMVCA 12", category: "Fun", clip: "assets/work/fun-amvca.mp4", poster: "assets/work/fun-amvca.jpg", link: "" },
+    { title: "Sights & Sounds", show: "Africa Magic Viewers' Choice Awards 12", category: "Fun", clip: "assets/work/fun-amvca.mp4", poster: "assets/work/fun-amvca.jpg", link: "" },
+    { title: "Love Island South Africa", show: "Islander feature", category: "On Set", clip: "assets/work/set-loveisland.mp4", poster: "assets/work/set-loveisland.jpg", link: "" },
     { title: "Countdown: Day 1", show: "FutureMe S2", category: "Fun", clip: "assets/work/fun-futureme-1.mp4", poster: "assets/work/fun-futureme-1.jpg", link: "" },
     { title: "Wura Core", show: "Africa Magic", category: "Fun", clip: "assets/work/fun-wura.mp4", poster: "assets/work/fun-wura.jpg", link: "" },
     { title: "Make It 80s", show: "Big Brother Naija S11", category: "AI", clip: "assets/work/ai-80s.mp4", poster: "assets/work/ai-80s.jpg", link: "" },
     { title: "Handler Song", show: "Big Brother Naija S11", category: "AI", clip: "assets/work/ai-handler.mp4", poster: "assets/work/ai-handler.jpg", link: "" },
-    { title: "Reunion Soundbite", show: "BBNaija Reunion", category: "AI", clip: "assets/work/ai-reunion.mp4", poster: "assets/work/ai-reunion.jpg", link: "" },
-    { title: "Reunion Soundbite", show: "BBNaija Reunion", category: "AI", clip: "assets/work/ai-ozee.mp4", poster: "assets/work/ai-ozee.jpg", link: "" },
+    { title: "Reunion Soundbite", show: "Big Brother Naija Reunion", category: "AI", clip: "assets/work/ai-reunion.mp4", poster: "assets/work/ai-reunion.jpg", link: "" },
+    { title: "Reunion Soundbite", show: "Big Brother Naija Reunion", category: "AI", clip: "assets/work/ai-ozee.mp4", poster: "assets/work/ai-ozee.jpg", link: "" },
     { title: "Winner Reveal", show: "Big Brother Naija S11", category: "AI", clip: "assets/work/ai-winner.mp4", poster: "assets/work/ai-winner.jpg", link: "" },
-    { title: "Angel Comes to Play", show: "BBNaija All Stars", category: "AI", clip: "assets/work/ai-angel.mp4", poster: "assets/work/ai-angel.jpg", link: "" },
-    { title: "Rehearsals", show: "AMVCA 12", category: "On Set", clip: "assets/work/set-amvca.mp4", poster: "assets/work/set-amvca.jpg", link: "" },
+    { title: "Angel Comes to Play", show: "Big Brother Naija All Stars", category: "AI", clip: "assets/work/ai-angel.mp4", poster: "assets/work/ai-angel.jpg", link: "" },
+    { title: "Rehearsals", show: "Africa Magic Viewers' Choice Awards 12", category: "On Set", clip: "assets/work/set-amvca.mp4", poster: "assets/work/set-amvca.jpg", link: "" },
     { title: "Housemate Profile", show: "Big Brother Naija S11", category: "On Set", clip: "assets/work/set-bluethopia.mp4", poster: "assets/work/set-bluethopia.jpg", link: "" },
-    { title: "Love Island", show: "Islander feature", category: "On Set", clip: "assets/work/set-loveisland.mp4", poster: "assets/work/set-loveisland.jpg", link: "" },
     { title: "Ric Hassani", show: "Nigerian Idol S9", category: "On Set", clip: "assets/work/set-ric.mp4", poster: "assets/work/set-ric.jpg", link: "" },
     { title: "Bosslady", show: "Nigerian Idol S10", category: "On Set", clip: "assets/work/set-bosslady.mp4", poster: "assets/work/set-bosslady.jpg", link: "" },
-    { title: "Winners", show: "AMVCA 12", category: "On Set", clip: "assets/work/set-amvca-winners.mp4", poster: "assets/work/set-amvca-winners.jpg", link: "" },
+    { title: "Winners", show: "Africa Magic Viewers' Choice Awards 12", category: "On Set", clip: "assets/work/set-amvca-winners.mp4", poster: "assets/work/set-amvca-winners.jpg", link: "" },
     { title: "Red & Yellow Card", show: "Big Brother Naija S11", category: "On Set", clip: "assets/work/set-redcard.mp4", poster: "assets/work/set-redcard.jpg", link: "" },
     { title: "Sade", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-sade.mp4", poster: "assets/work/th-sade.jpg", link: "" },
     { title: "Remi", show: "Interview edit", category: "Talking Heads", clip: "assets/work/th-remi.mp4", poster: "assets/work/th-remi.jpg", link: "" },
@@ -96,7 +100,7 @@ window.SITE = {
     {
       title: "Channel and Content Management",
       views: "1.5B+ views",
-      text: "Part of the digital team cutting, shooting and publishing daily across Africa Magic, Maisha Magics, Pearl Magics, Akwaaba Magic and Seasonal titles. Also analysing performance to guide what we make next, and contributing to client proposals.",
+      text: "Part of the digital team cutting, shooting and publishing daily across Africa Magic, Maisha Magic East, Maisha Magic Plus, Maisha Magic Bongo, Pearl Magic, Akwaaba Magic and Seasonal titles. Also analysing performance to guide what we make next, and contributing to client proposals.",
     },
   ],
 
@@ -178,25 +182,28 @@ window.SITE = {
 
   // Scrolling banner: shows and channels worked on
   shows: [
-    "Big Brother",
     "Big Brother Naija",
     "Big Brother Mzansi",
     "Big Brother Africa",
     "Big Brother Angola",
     "Big Brother Mozambique",
     "Nigerian Idol",
-    "Idols SA",
-    "Love Island SA",
+    "Idols Mzansi",
+    "Love Island South Africa",
     "The Voice Nigeria",
     "The Voice South Africa",
-    "AMVCA",
-    "DStvMVCA",
+    "Africa Magic Viewers' Choice Awards",
+    "DStv Mzansi Viewers' Choice Awards",
+    "M-Net",
+    "Mzansi Magic",
+    "Channel O",
     "Africa Magic",
-    "Maisha Magics",
+    "Maisha Magic East",
+    "Maisha Magic Plus",
     "Maisha Magic Bongo",
-    "Pearl Magics",
+    "Pearl Magic",
     "Akwaaba Magic",
-    "Real Housewives of Lagos",
+    "The Real Housewives of Lagos",
   ],
 
   experience: [
@@ -204,19 +211,19 @@ window.SITE = {
       years: "2022 – Present",
       title: "Digital Video & Content Manager",
       org: "Don't Look Down TV",
-      note: "Video and content across Kenya, Tanzania, Uganda, Nigeria, Ghana and South Africa: AMVCA, Nigerian Idol, BBNaija, GE Video. Owns performance reporting across brands and seasonal projects, and turns audience insights into what the team makes next.",
+      note: "Led video and digital content delivery across major entertainment brands and formats in South Africa, Nigeria, Kenya, Tanzania, Uganda and Ghana, including Big Brother Naija, Nigerian Idol, Love Island South Africa on M-Net, the Africa Magic Viewers' Choice Awards and pan-African entertainment campaigns. Oversaw content production, editing, publishing and digital video operations across high-volume, always-on entertainment environments, with performance reporting and audience insights shaping what the team makes next.",
     },
     {
       years: "2018 – 2022",
       title: "Senior Video Operations Manager",
       org: "Don't Look Down TV",
-      note: "Managed and published on YouTube channels including Africa Magic, Akwaaba Magic, Maisha Magic, BBNaija and Nigerian Idol. Helped launch digital platforms for new MultiChoice brands, and worked directly with YouTube on monetisation, rights and anti-piracy.",
+      note: "Managed digital video operations and YouTube publishing across major African entertainment channels including Africa Magic, Mzansi Magic, Channel O, Akwaaba Magic, Maisha Magic, Big Brother Naija and Nigerian Idol. Oversaw publishing workflows, content delivery, monetisation, rights management and channel operations across multiple markets and high-volume entertainment franchises, and helped launch digital platforms for new MultiChoice brands.",
     },
     {
       years: "2012 – 2017",
       title: "Video Content Creator",
       org: "Don't Look Down TV · Contract",
-      note: "DStv Catch-Up, freelance teams across Big Brother projects, video lead for The Voice Nigeria and The Voice Angola. Trained internal staff on VOD and streaming workflows.",
+      note: "DStv Catch-Up and VOD work for Mzansi Magic, earlier seasons of Big Brother Mzansi, freelance teams across Big Brother projects, video lead for The Voice Nigeria and The Voice Angola. Trained internal staff on VOD and streaming workflows.",
     },
     {
       years: "2007 – 2011",

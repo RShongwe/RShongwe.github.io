@@ -64,7 +64,7 @@
       <h1 class="display">${esc(S.name)}</h1>
       <p class="role">${esc(S.role)}</p>
       <hr class="rule">
-      <p class="intro">${esc(S.intro)}</p>`;
+      ${[].concat(S.intro).map((p) => `<p class="intro">${esc(p)}</p>`).join("")}`;
 
     player($("#reel"), { ...S.reel, label: "Play showreel" });
     if (S.reel.youtubeUrl)
@@ -75,14 +75,15 @@
 
     $("#panel").innerHTML = `
       <div>
-        <p class="display big">15+</p>
-        <p class="big-label">Years in African digital media</p>
+        <p class="display big">${esc(S.stats[0].value)}</p>
+        <p class="big-label">${esc(S.stats[0].label)}</p>
       </div>
       <div class="divider" aria-hidden="true"></div>
       <div class="facts">
         <p class="label">What I do</p><p>${esc(S.whatIDo)}</p>
         <p class="label">Markets</p><p>${S.markets.map(esc).join(" · ")}</p>
         <p class="label">Skills</p><p>${S.skills.map(esc).join(" · ")}</p>
+        <p class="label">Tools</p><p>${S.tools.map(esc).join(" · ")}</p>
         <p class="label">YouTube</p><p class="lede">${esc(S.youtube)}</p>
         ${S.works ? `<p class="label">Works</p><p>${esc(S.works)}</p>` : ""}
       </div>`;
